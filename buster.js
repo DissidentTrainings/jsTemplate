@@ -5,7 +5,6 @@ config['Browser'] = {
   sources: [
     'components/async-load/load.js', 
     'JSTemplate.js',
-    'JSTemplate.load.js'
   ],
   tests: [
     'tests/*.js',
