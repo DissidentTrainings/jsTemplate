@@ -5,16 +5,16 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-lexicon: {
-    all: {
-      src: ["*.js"],
-      dest: "docs",
-      options: {
-        title: "The Docs",
-        format: "html"
+    lexicon: {
+      all: {
+        src: ["*.js"],
+        dest: "docs",
+        options: {
+          title: "The Docs",
+          format: "html"
+        } 
       }
-    }
-  },
+    },
     buster: {
       test: {
         config: './buster.js'
@@ -38,5 +38,5 @@ lexicon: {
   grunt.loadNpmTasks('grunt-buster');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   // Default task.
-  grunt.registerTask('default', ['jshint', 'buster']);
+  grunt.registerTask('default', ['jshint', 'buster', 'lexicon']);
 };

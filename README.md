@@ -22,6 +22,13 @@ Install and test:
 make
 ```
 
+* installs npm modules
+* installs bower components
+* executes grunt
+  * jshint
+  * buster unit tests
+  * lexicon js docs
+
 
 
 
