@@ -1,3 +1,5 @@
+"use strict";
+
 /*global module:false*/
 module.exports = function(grunt) {
 
@@ -11,15 +13,12 @@ module.exports = function(grunt) {
         port: 1111
       }
     },
-    lint: {
-      files: ['Gruntfile.js', 'tests/**/*.js']
-    },
     watch: {
       files: '<config:lint.files>',
       tasks: 'jshint buster'
     },
     jshint: {
-      all: ['Gruntfile.js', 'tests/*.js'],
+      all: ['Gruntfile.js', 'jsTemplate.js', 'tests/*.js'],
       options: {
         jshintrc: '.jshintrc'
       } 

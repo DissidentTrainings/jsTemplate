@@ -1,3 +1,4 @@
+"use strict";
 buster.testCase("My thing", {
     "has the foo and bar": function () {
        var jst = new JSTemplate(); 

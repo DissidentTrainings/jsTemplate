@@ -1,3 +1,4 @@
+"use strict";
 buster.testCase("loads external js code", {
     setUp: function () {
       var scriptTag = document.createElement('script');
