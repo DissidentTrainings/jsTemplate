@@ -12,4 +12,5 @@ test:
 clean:
 	@rm -rf components
 	@rm -rf node_modules
+	@rm -rf docs
 .PHONY: test

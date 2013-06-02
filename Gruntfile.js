@@ -5,6 +5,16 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
+lexicon: {
+    all: {
+      src: ["*.js"],
+      dest: "docs",
+      options: {
+        title: "The Docs",
+        format: "html"
+      }
+    }
+  },
     buster: {
       test: {
         config: './buster.js'
@@ -24,6 +34,7 @@ module.exports = function(grunt) {
       } 
     }
   });
+  grunt.loadNpmTasks('grunt-lexicon');
   grunt.loadNpmTasks('grunt-buster');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   // Default task.
