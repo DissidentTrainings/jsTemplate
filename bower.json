@@ -1,9 +1,8 @@
 {
   "name": "Client Template",
-  "version": "0.0.1",
-  "main": "./main.js",
+  "version": "0.0.3",
+  "main": "./JSTemplate.js",
   "dependencies": {
-    "async-load": "*"
   }
 }
 
