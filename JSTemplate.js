@@ -1,4 +1,4 @@
-console.log('foo');
+"use strict";
 
 function JSTemplate() {
 
