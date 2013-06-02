@@ -10,5 +10,6 @@ test:
 	@grunt
 
 clean:
-	@../rm -.rf components
+	@rm -rf components
+	@rm -rf node_modules
 .PHONY: test

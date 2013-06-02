@@ -1,6 +1,6 @@
 {
   "name": "Client Template",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./JSTemplate.js",
   "dependencies": {
   }
