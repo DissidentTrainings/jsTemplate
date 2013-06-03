@@ -1,6 +1,6 @@
 {
   "name": "JSTemplate",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "./JSTemplate.js",
   "dependencies": {
   }
