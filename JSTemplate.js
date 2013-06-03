@@ -15,3 +15,10 @@ function JSTemplate() {
 JSTemplate.prototype.foo = function() {
   return "bar";
 };
+
+/**
+ * Returns Baz
+ */
+JSTemplate.prototype.baz = function() {
+  return "baz";
+};
